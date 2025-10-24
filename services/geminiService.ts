@@ -2,12 +2,7 @@
 import { GoogleGenAI, Type, Chat } from "@google/genai";
 import type { GenerateContentResponse } from "@google/genai";
 
-const API_KEY = process.env.API_KEY;
-if (!API_KEY) {
-  throw new Error("API_KEY environment variable not set");
-}
-
-const ai = new GoogleGenAI({ apiKey: API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 const scriptParserModel = 'gemini-2.5-flash';
 const imageGeneratorModel = 'imagen-4.0-generate-001';
