@@ -1,0 +1,5 @@
+{
+  "name": "AI Storyboard Generator",
+  "description": "Upload a movie or story script and an AI will generate a visual storyboard sequence for you. The app also includes an integrated chatbot to assist with creative questions.",
+  "requestFramePermissions": []
+}
